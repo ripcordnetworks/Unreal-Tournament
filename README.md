@@ -9,7 +9,7 @@ To add the mutator to your installing of Unreal Tournament Editor:
 1. Unzip the contents of the file directly into the "Contents" folder of the UnrealTournamentEditor folder. For EXAMPLE D:\Epic\UnrealTournamentEditor\UnrealTournament\Content\GamePlay
 2. Launch UT Editor
 3. Verify the files have shown up correctly
-4. ***RENAME THE ROOT FOLDER FROM "GamePlay" TO ANYTHING ELSE!
+4. ***RENAME THE ROOT FOLDER IN THE EDITOR FROM "GamePlay" TO ANYTHING ELSE!
 5.  ***RENAME ALL THE MUTATORS FROM "MUTATOR_GameplayXXX" to "Mutator_MyNewNameXXX"
 6. Modify as you please
 7. To test the mutator in the editor add the following command to play in editor (PIE):
