@@ -10,13 +10,14 @@ To add the mutator to your installing of Unreal Tournament Editor:
 2. Launch UT Editor
 3. Verify the files have shown up correctly
 4. ***RENAME THE ROOT FOLDER FROM "GamePlay" TO ANYTHING ELSE!
-5. Modify as you please
-6. To test the mutator in the editor add the following command to play in editor (PIE):
-?mutator=/game/GamePlay/mutator_GamePlayMode.mutator_GamePlayMode_C
-7. You may need to fix a few dependencies on weapons or other assets
-8. Places to modify the "GamePlay" value: Mutator file names, Mutator descriptions, Mutator author, All weapon and asset file names, All weapon descriptions, Match start splash logo/name
-9. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_GamePlayMode".
-10. First time cooking can take upwards of an hour to complete, afterwards it should take just a few minutes.  You can find your cooked pak file in C:\Users\YOURNAME\Documents\UnrealTournament\Saved\Paks\MyContent
+5.  ***RENAME ALL THE MUTATORS FROM "MUTATOR_GameplayXXX" to "Mutator_MyNewNameXXX"
+6. Modify as you please
+7. To test the mutator in the editor add the following command to play in editor (PIE):
+?mutator=/game/MyNewName/mutator_MyNewNameMode.mutator_MyNewNameMode_C
+8. You may need to fix a few dependencies on weapons or other assets
+9. Places to modify the "GamePlay" value: Mutator file names, Mutator descriptions, Mutator author, All weapon and asset file names, All weapon descriptions, Match start splash logo/name
+10. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_MyNewNameMode".
+11. First time cooking can take upwards of an hour to complete, afterwards it should take just a few minutes.  You can find your cooked pak file in C:\Users\YOURNAME\Documents\UnrealTournament\Saved\Paks\MyContent
 Play offline right now to test in the game or upload to your favorite HUB.
 
 
