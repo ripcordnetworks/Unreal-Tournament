@@ -12,8 +12,16 @@ To add the mutator to your installing of Unreal Tournament Editor:
 ?mutator=/game/CHANGEME/mutator_CHANGEME.mutator_CHANGEME_C
 6. You may need to fix a few dependencies on weapons or other assets
 7. Places to modify the "CHANGEME" value: Mutator file names, Mutator descriptions, Mutator author, All weapon and asset file names, All weapon descriptions, Match start splash logo/name
-8. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_CHANGEME".
+8. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_CHANGEMEMode".
 9. First time cooking can take upwards of an hour to complete, afterwards it should take just a few minutes.  You can find your cooked pak file in C:\Users\YOURNAME\Documents\UnrealTournament\Saved\Paks\MyContent
 Play offline right now to test in the game or upload to your favorite HUB.
+
+
+Mutator File Name Desciptions
+BP_CHANGEMEMovementInventory - This file contains the movement variables applied with Mutator_CHANGEMEMovement.
+Mutator_CHANGEMEMode - This is the master file, cooking/sharing this file will add all the content to a ProMode like mutator.
+Mutator_CHANGEMEMovement - This is the mutator file that applies the BP_CHANGEMEMovementInventory to the pawns movement.
+Mutator_CHANGEMESwitch - This mutator applies fast weapon switch to stock weapons, changes made to this file only affect stock weapons.
+Mutator_CHANGEMEWeapons - This mutator is responsible for replacing all the stock weapons/items with your modified weapons.
 
 Happy Fraggings! - PayBack
