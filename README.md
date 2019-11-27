@@ -18,10 +18,10 @@ Play offline right now to test in the game or upload to your favorite HUB.
 
 
 Mutator File Name Desciptions
-BP_CHANGEMEMovementInventory - This file contains the movement variables applied with Mutator_CHANGEMEMovement.
-Mutator_CHANGEMEMode - This is the master file, cooking/sharing this file will add all the content to a ProMode like mutator.
-Mutator_CHANGEMEMovement - This is the mutator file that applies the BP_CHANGEMEMovementInventory to the pawns movement.
-Mutator_CHANGEMESwitch - This mutator applies fast weapon switch to stock weapons, changes made to this file only affect stock weapons.
-Mutator_CHANGEMEWeapons - This mutator is responsible for replacing all the stock weapons/items with your modified weapons.
+1. BP_CHANGEMEMovementInventory - This file contains the movement variables applied with Mutator_CHANGEMEMovement.
+2. Mutator_CHANGEMEMode - This is the master file, cooking/sharing this file will add all the content to a ProMode like mutator.
+3. Mutator_CHANGEMEMovement - This is the mutator file that applies the BP_CHANGEMEMovementInventory to the pawns movement.
+4. Mutator_CHANGEMESwitch - This mutator applies fast weapon switch to stock weapons, changes made to this file only affect stock weapons.
+5. Mutator_CHANGEMEWeapons - This mutator is responsible for replacing all the stock weapons/items with your modified weapons.
 
 Happy Fraggings! - PayBack
