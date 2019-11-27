@@ -11,10 +11,10 @@ To add the mutator to your installing of Unreal Tournament Editor:
 3. Verify the files have shown up correctly
 4. Modify as you please
 5. To test the mutator in the editor add the following command to play in editor (PIE):
-?mutator=/game/CHANGEME1/mutator_CHANGEMEMode.mutator_CHANGEMEMode_C
+?mutator=/game/ChangeMe1/mutator_ChangeMode.mutator_ChangeMode_C
 6. You may need to fix a few dependencies on weapons or other assets
 7. Places to modify the "CHANGEME" value: Mutator file names, Mutator descriptions, Mutator author, All weapon and asset file names, All weapon descriptions, Match start splash logo/name
-8. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_CHANGEMEMode".
+8. Once you have renamed all the objects/variables and modified the mutator as you like, from within the editor Select Share -> Share Mutator and select the "Mutator_ChangeMode".
 9. First time cooking can take upwards of an hour to complete, afterwards it should take just a few minutes.  You can find your cooked pak file in C:\Users\YOURNAME\Documents\UnrealTournament\Saved\Paks\MyContent
 Play offline right now to test in the game or upload to your favorite HUB.
 
