@@ -22,7 +22,7 @@ Play offline right now to test in the game or upload to your favorite HUB.
 
 
 Mutator File Name Desciptions
-1. BP_ChangeMovementInventory - This file contains the movement variables applied with Mutator_GamePlayMovement.
+1. BP_GamePlayMovementInventory - This file contains the movement variables applied with Mutator_GamePlayMovement.
 2. Mutator_GamePlayMode - This is the master file, cooking/sharing this file will add all the content to a ProMode like mutator.
 3. Mutator_GamePlayMovement - This is the mutator file that applies the BP_GamePlayInventory to the pawns movement.
 4. Mutator_GamePlaySwitch - This mutator applies fast weapon switch to stock weapons, changes made to this file only affect stock weapons.
